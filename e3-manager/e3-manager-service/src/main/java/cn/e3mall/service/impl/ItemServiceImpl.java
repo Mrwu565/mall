@@ -58,7 +58,8 @@ public class ItemServiceImpl implements ItemService {
 		PageInfo<TbItem> pageInfo = new PageInfo<>(list);
 		//取总记录数
 		long total = pageInfo.getTotal();
-		System.out.println(pageInfo.getLastPage());
+		System.out.println(pageInfo.getLastPage()+"123");
+		System.out.println(pageInfo.getLastPage()+"456");
 		result.setTotal(total);
 		return result;
 	}
