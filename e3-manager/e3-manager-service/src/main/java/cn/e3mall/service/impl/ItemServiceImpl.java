@@ -60,6 +60,7 @@ public class ItemServiceImpl implements ItemService {
 		long total = pageInfo.getTotal();
 		System.out.println(pageInfo.getLastPage()+"123");
 		System.out.println(pageInfo.getLastPage()+"456");
+		System.out.println(pageInfo.getLastPage()+"789");
 		result.setTotal(total);
 		return result;
 	}
